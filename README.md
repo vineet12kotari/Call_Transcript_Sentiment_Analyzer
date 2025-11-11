@@ -101,3 +101,14 @@ INSERT INTO CALL_TRANSCRIPTS VALUES
 ('C001', 'Amit', 'John Doe', '2025-10-01', 'Customer reported poor service response...'),
 ('C002', 'Maya', 'Jane Smith', '2025-10-02', 'Customer appreciated the agent support...'),
 ('C003', 'Raj', 'Michael Lee', '2025-10-03', 'Billing issue unresolved, customer upset...');
+
+## 📁 Repository Structure
+
+The repository is organized for quick deployment within the Streamlit in Snowflake environment:
+/Call_Center_Cortex_Streamlit
+├── README.md
+├── streamlit_app.py              # Core Streamlit app logic
+└── Data_Setup/
+    ├── create_tables.sql         # SQL for table creation
+    └── sample_data_load.sql      # Sample transcript inserts
+

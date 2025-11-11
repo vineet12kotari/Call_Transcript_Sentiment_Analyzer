@@ -114,5 +114,10 @@ The repository is organized for quick deployment within the Streamlit in Snowfla
 └── Data_Setup/
     ├── create_tables.sql         # SQL for table creation
     └── sample_data_load.sql      # Sample transcript inserts
+
+---
+
+### Screenshots / Demos
+Example: ![Dashboard Preview](https://github.com/vineet12kotari/Call_Transcript_Sentiment_Analyzer/blob/main/Call_Transcript_Sentiment_Analyzer.png)
     
 

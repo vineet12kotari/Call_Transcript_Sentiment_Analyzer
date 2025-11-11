@@ -102,6 +102,9 @@ INSERT INTO CALL_TRANSCRIPTS VALUES
 ('C002', 'Maya', 'Jane Smith', '2025-10-02', 'Customer appreciated the agent support...'),
 ('C003', 'Raj', 'Michael Lee', '2025-10-03', 'Billing issue unresolved, customer upset...');
 
+```
+---
+
 ## 📁 Repository Structure
 
 The repository is organized for quick deployment within the Streamlit in Snowflake environment:
@@ -111,4 +114,5 @@ The repository is organized for quick deployment within the Streamlit in Snowfla
 └── Data_Setup/
     ├── create_tables.sql         # SQL for table creation
     └── sample_data_load.sql      # Sample transcript inserts
+    
 
